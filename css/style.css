@@ -35,3 +35,12 @@ table, tr, th, td, caption{
     border-collapse: collapse;
     padding: 0.5rem;
 }
+
+label{
+    color: rgb(194, 52, 52);
+
+}
+
+span-class{
+    color: rgb(194, 52, 52);
+}

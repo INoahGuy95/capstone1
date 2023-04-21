@@ -38,41 +38,78 @@
       </nav>
     </header>
 
-    <table style="width: 100%">
-      <div class="container">
-        <div class="row">
-      </div>
-      <tr>
-        <th>Color</th>
-        <th>Size/Price</th>
-      </tr>
-      <tr>
-        <td>Black</td>
-        <td>3.5" x 5.5" = $5.99 plus shipping and handling</td>
-      </tr>
-      <tr>
-        <td>Brown</td>
-        <td>4.3 x 8.25" = $10.99 plus shipping and handling</td>
-      </tr>
-      <tr>
-        <td>Green</td>
-        <td>5.8" x 8.25" = $15.99 plus shipping and handling</td>
-      </tr>
-    </table>
+   <div class="containter">
+    <div class="row">
+      <div class="col-4">
+      <div class="card mx-auto" style="width:300px">
+        <img
+          class="Black"
+          src="/images/S4-mTWC.jpg"
+          style="width: 100%"
+          />
+          <div
+            class="card-body"
+            style="background-color: #4b4e55;"
+            style="height: 500px"
+            >
+            <h4 class="card-title">Onyx Scribe</h4>
+            <input type="radio" id="size" name="small" value="small" /> $5.99 Small <br>
+            <input type="radio" id="size" name="medium" value="medium" /> $10.99 Medium <br>
+            <input type="radio" id="size" name="large" value="large" /> $15.99 Large
+            
+          <a href="checkout.html" class="btn btn-prime">Add to Cart</a>
+          </div>
+          </div>
+          </div>
 
-    <form name="ShoppingList">
-    <fieldset>
-        <legend>Shopping cart</legend>
-        <label>Item: <input type="text" name="name"></label>
-        <label>Quantity: <input type="text" name="data"></label>
 
-       
-        <input type="button" value="Add to Cart" onclick="ModifyItem()">
-        <input type="button" value="Remove from Cart" onclick="RemoveItem()">
-        <input type="button" value="Empty Cart" onclick="ClearAll()">
-    </fieldset>
-</form>
+    <div class="col-4">
+      <div class="card mx-auto" style="width:300px">
+        <img
+          class="Black"
+          src="/images/refillable-leather-wrap-journal-planner-cover-crazy-horse-forest-green_800x.jpg"
+          style="width: 100%"
+          />
+          <div
+            class="card-body"
+            style="background-color: #4b4e55;"
+            style="height: 500px"
+            >
+            <h4 class="card-title">Emerald Chronicle</h4>
+            <input type="radio" id="size" name="small" value="small" /> $5.99 Small <br>
+            <input type="radio" id="size" name="medium" value="medium" /> $10.99 Medium <br>
+            <input type="radio" id="size" name="large" value="large" /> $15.99 Large
+            
+          <a href="checkout.html" class="btn btn-prime">Add to Cart</a>
+          </div>
+          </div>
+          </div>
 
+          
+            <div class="col-4">
+              <div class="card mx-auto" style="width:300px">
+        <img
+          class="Black"
+          src="/images/61UJAMWZWCL.jpg"
+          style="width: 100%"
+          />
+          <div
+            class="card-body"
+            style="background-color: #4b4e55;"
+            style="height: 500px"
+            >
+            <h4 class="card-title">Mahogany Logbook</h4>
+            <input type="radio" id="size" name="small" value="small" /> $5.99 Small <br>
+            <input type="radio" id="size" name="medium" value="medium" /> $10.99 Medium <br>
+            <input type="radio" id="size" name="large" value="large" /> $15.99 Large
+            
+          <a href="checkout.html" class="btn btn-prime">Add to Cart</a>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        
 
     <!--This is a bootstrap extension-->
     <script
